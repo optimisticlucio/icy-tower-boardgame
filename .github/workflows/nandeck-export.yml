@@ -21,4 +21,4 @@ jobs:
       with:
         name: nandeck-export
         path: nandeck/export
-        retention-days: 2
+        retention-days: 1

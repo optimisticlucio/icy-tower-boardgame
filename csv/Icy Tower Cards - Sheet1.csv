@@ -8,10 +8,10 @@ Card Amount,Card Name,Card Effect,Combo Card,Image File
 6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 steps.",TRUE,hip-hop.png
 6,Hurry up!,"Discard your hand, draw an equal amount of cards.",FALSE,hurry-up.png
 ,,,,
-2,Insane!,Draw 2 cards.,FALSE,
+2,Great!,Draw 2 cards.,FALSE,great.png
 0,Colorful stars, you can turn any card of yours into a ice tower card,,
 8,Wrew!,Jump 2 steps.,TRUE,wrew.png
 6,Rainbow Streak,The tower doesn't crumble this turn.,TRUE,rainbow-streak.png
 4,Sweet!,"If you're on a 3+ combo streak, draw two cards.",FALSE,sweet.png
-4,Alright!,Copy the last card you've played.,TRUE,
-2,Phew!,"If the tower would crumble on you at the end of this turn, jump 5 steps.",TRUE,
+4,TEMPLATE,Copy the last card you've played.,TRUE,template.png
+2,No Way!,"If the tower would crumble on you at the end of this turn, jump 5 steps.",TRUE,no-way.png
