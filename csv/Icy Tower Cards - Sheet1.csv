@@ -1,17 +1,17 @@
 Card Amount,Card Name,Card Effect,Combo Card,Image File
-18,Hip!,Jump 1 step.,FALSE,hop.png
-6,Stayin' Alive!,"Roll a six-sided die, jump that many steps.",TRUE,stayin-alive.png
+20,Hip!,Jump 1 floor.,FALSE,hop.png
+6,Stayin' Alive!,"Roll a six-sided die, jump that many floors.",TRUE,stayin-alive.png
 0,Icy Tower,קלף כמו ג'וקר (הדמות של אייסיטואוור) שאפשר להשתמש בו לקומבינציות עם קלפים אחרים,,
 5,Hmm..,"Reveal the top four cards of the deck. Put one in your hand, discard the rest.",FALSE,hm.png
-6,Hyea!,"Jump 3 steps. Discard a card in your hand to jump 6, instead.",FALSE,hyea.png
+6,Hyea!,"Jump 2 floors. Discard a card in your hand to jump 5, instead.",FALSE,hyea.png
 ,,,,
-6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 steps.",TRUE,hip-hop.png
+6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 floors.",TRUE,hip-hop.png
 6,Hurry up!,"Discard your hand, draw an equal amount of cards.",FALSE,hurry-up.png
 ,,,,
 2,Great!,Draw 2 cards.,FALSE,great.png
 0,Colorful stars, you can turn any card of yours into a ice tower card,,
-8,Wrew!,Jump 2 steps.,TRUE,wrew.png
+8,Wrew!,Jump 2 floors.,TRUE,wrew.png
 6,Rainbow Streak,The tower doesn't crumble this turn.,TRUE,rainbow-streak.png
 4,Sweet!,"If you're on a 3+ combo streak, draw two cards.",FALSE,sweet.png
 4,TEMPLATE,Copy the last card you've played.,TRUE,template.png
-2,No Way!,"If the tower would crumble on you at the end of this turn, jump 5 steps.",TRUE,no-way.png
+2,No Way!,"If the tower would crumble on you at the end of this turn, jump 5 floors.",TRUE,no-way.png

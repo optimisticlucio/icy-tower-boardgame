@@ -10,9 +10,9 @@ Shuffle the card deck and draw 3 cards. Set Harold the Homeboy at the 1st floor,
 
 ### Gameplay
 
-Each turn, you play a card from your hand and then draw a new card from the deck.
+Each turn, you play a single card from your hand and then draw a new one from the deck. You could choose to play nothing and just pass your turn to draw a card.
 
-Some of the cards you have are **Combo Cards** - if you play a combo card, you go up an extra step for every other combo card you've played before it in a row, up to 5 steps! (That's the max combo.)
+Some of the cards you have are **Combo Cards** - every time you play a combo card, you climb an extra floor for every successive previous turn you played a combo card.
 
 At the end of your turn the tower starts crumbling to bricks and dust, and the crumble token chases after you - it moves up 1 floor, and an additional floor for every 10 you've climbed (if you're on floor 11, it moves 2. Floor 21, it moves 3. You get the idea.)
 
