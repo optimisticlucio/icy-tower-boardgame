@@ -1,0 +1,27 @@
+LINKMULCOPY=OFF
+LINKMULTI=Card Amount
+LINK=..\..\csv\Icy Tower Cards - Sheet1.csv
+
+[COMBO CARDS] = LABELRANGE([COMBO CARD],=True)
+
+VISUAL=HV, 10, 10
+;Non-Combo Font
+FONT=Bauhaus 93,20,,#000000
+TEXT=,[CARD NAME],0%,0%,100%,{10103/600}%
+
+;Combo Font
+FONT=Bauhaus 93,20,,#69359C
+TEXT=[COMBO CARDS],[CARD NAME],0%,0%,100%,{10103/600}%
+
+;Combo Subtitle Font
+FONT=Bauhaus 93,10,,#69359C
+TEXT=[COMBO CARDS],"COMBO!",0%,{1603/120}%,100%,{491/60}%
+
+
+IMAGE=,"..\..\img\[IMAGE FILE]",{11/2}%,{873/40}%,{36107/400}%,{27601/600}%
+;Text Font
+FONT=Arial,10,,#000000
+TEXT="1-{(CARD EFFECT)}",[CARD EFFECT],0%,72.5%,100%,27.5%,CENTER,WWTOP
+ENDVISUAL
+
+DISPLAY="..\export\export{§}.png",,,10x7

@@ -1,0 +1,14 @@
+Card Amount,Card Name,Card Effect,Combo Card,Image File
+24,Hip!,Jump 1 step.,FALSE,hop.png
+6,Stayin' Alive!,"Roll a dice, jump that many steps.",TRUE,stayin-alive.png
+0,Icy Tower,קלף כמו ג'וקר (הדמות של אייסיטואוור) שאפשר להשתמש בו לקומבינציות עם קלפים אחרים,,
+4,Hmm..,Draw a card.,FALSE,hm.png
+6,Hyea!,"Jump 4 steps, discard a card.",TRUE,hyea.png
+0,LUCKY YOU ?,DROP 2 CARDS AND TAKE ONE,,
+6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 steps.",TRUE,hip-hop.png
+8,Hurry up!,"Draw a card, discard a card.",FALSE,hurry-up.png
+0,sweet !,"Jump 5 steps, if you have ice tower card.",,
+1,Sweet!,Draw 2 cards.,TRUE,sweet.png
+0,Colorful stars, you can turn any card of yours into a ice tower card,,
+8,Wrew!,Jump 2 steps.,TRUE,wrew.png
+6,Rainbow Streak,Play another card this turn.,TRUE,rainbow-streak.png
