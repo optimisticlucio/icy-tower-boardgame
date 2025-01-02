@@ -17,7 +17,7 @@ jobs:
     
     - name: Install fonts
       run: |
-        for %%v in (.\fonts\*.zip) do font-install "%%v"
+        for %%v in (.\fonts\*.zip) do C:\Users\runneradmin\go\bin\font-install "%%v"
       shell: cmd
 
     - name: Export deck
