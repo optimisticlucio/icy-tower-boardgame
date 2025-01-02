@@ -16,9 +16,28 @@ jobs:
         $fontsPath = "$PWD/fonts"
         if (Test-Path $fontsPath) {
           Write-Host "Installing fonts from $fontsPath"
+          Add-Type -TypeDefinition @"
+          using System;
+          using System.Runtime.InteropServices;
+          public class FontInstaller {
+              [DllImport("gdi32.dll")]
+              public static extern int AddFontResourceEx(string lpszFilename, uint fl, IntPtr pdv);
+              [DllImport("gdi32.dll")]
+              public static extern bool RemoveFontResourceEx(string lpFileName, uint fl, IntPtr pdv);
+          }
+          "@
+
           Get-ChildItem -Path $fontsPath -Filter *.ttf -Recurse | ForEach-Object {
             $fontFile = $_.FullName
+            $fontName = $_.Name
+            Write-Host "Copying font: $fontName"
             Copy-Item -Path $fontFile -Destination "$env:WINDIR\Fonts" -Force
+            $result = [FontInstaller]::AddFontResourceEx($fontFile, 0x10, [IntPtr]::Zero)
+            if ($result -eq 0) {
+              Write-Host "Failed to register font: $fontName"
+            } else {
+              Write-Host "Successfully registered font: $fontName"
+            }
           }
         } else {
           Write-Host "No fonts directory found, skipping font installation."
