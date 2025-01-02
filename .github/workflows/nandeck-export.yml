@@ -11,15 +11,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install font installer
-      run: |
-        go install github.com/Crosse/font-install@latest
-    
-    - name: Install fonts
-      run: |
-        for %%v in (.\fonts\*.zip) do C:\Users\runneradmin\go\bin\font-install "%%v"
-      shell: cmd
-
     - name: Export deck
       run: |
         .\nandeck\nanDECK.exe .\nandeck\decks\deck.txt /exec
