@@ -11,6 +11,33 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Install Fonts
+      run: |
+        # Define the fonts directory
+        $fontsDir = "$env:GITHUB_WORKSPACE\fonts"
+
+        # Check if the directory exists
+        if (Test-Path -Path $fontsDir) {
+            # Get all font files in the directory (TTF and OTF)
+            Get-ChildItem -Path $fontsDir -Include *.ttf, *.otf -File | ForEach-Object {
+                Write-Host "Installing font: $($_.FullName)"
+                Copy-Item -Path $_.FullName -Destination "$env:WINDIR\Fonts"
+            }
+
+            # Wait to ensure fonts are recognized
+            Start-Sleep -Seconds 2
+        } else {
+            Write-Host "Fonts directory does not exist at $fontsDir"
+        }
+      shell: pwsh
+
+    - name: Verify Installed Fonts
+      run: |
+        Get-ChildItem -Path "$env:WINDIR\Fonts" | ForEach-Object {
+            Write-Host $_.Name
+        }
+      shell: pwsh
+
     - name: Export deck
       run: |
         .\nandeck\nanDECK.exe .\nandeck\decks\deck.txt /exec

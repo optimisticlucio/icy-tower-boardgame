@@ -7,21 +7,21 @@ LINK=..\..\csv\Icy Tower Cards - Sheet1.csv
 VISUAL=HV, 10, 10
 ;Non-Combo Font
 FONT=Bauhaus 93,20,,#000000
-TEXT=,[CARD NAME],0%,0%,100%,{10103/600}%
+TEXT=,[CARD NAME],0%,0%,100%,15%
 
 ;Combo Font
 FONT=Bauhaus 93,20,,#69359C
-TEXT=[COMBO CARDS],[CARD NAME],0%,0%,100%,{10103/600}%
+TEXT=[COMBO CARDS],[CARD NAME],0%,0%,100%,15%
 
 ;Combo Subtitle Font
 FONT=Bauhaus 93,10,,#69359C
-TEXT=[COMBO CARDS],"COMBO!",0%,{1603/120}%,100%,{491/60}%
+TEXT=[COMBO CARDS],"COMBO!",0%,15%,100%,5%
 
 
-IMAGE=,"..\..\img\[IMAGE FILE]",{11/2}%,{873/40}%,{36107/400}%,{27601/600}%
+IMAGE=,"..\..\img\[IMAGE FILE]",5%,20%,90%,50%
 ;Text Font
 FONT=Arial,10,,#000000
-TEXT="1-{(CARD EFFECT)}",[CARD EFFECT],0%,72.5%,100%,27.5%,CENTER,WWTOP
+TEXT="1-{(CARD EFFECT)}",[CARD EFFECT],0%,75%,100%,25%,CENTER,WWTOP
 ENDVISUAL
 
-DISPLAY="..\export\export{�}.png",,,10x7
+DISPLAY="..\export\export{ן¿½}.png",,,10x7
