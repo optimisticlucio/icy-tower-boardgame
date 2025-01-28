@@ -1,17 +1,12 @@
 Card Amount,Card Name,Card Effect,Combo Card,Image File
-20,Hip!,Jump 1 floor.,FALSE,hop.png
-6,Stayin' Alive!,"Roll a six-sided die, jump that many floors.",TRUE,stayin-alive.png
-0,Icy Tower,קלף כמו ג'וקר (הדמות של אייסיטואוור) שאפשר להשתמש בו לקומבינציות עם קלפים אחרים,,
-5,Hmm..,"Reveal the top four cards of the deck. Put one in your hand, discard the rest.",FALSE,hm.png
-6,Hyea!,"Jump 2 floors. Discard a card in your hand to jump 5, instead.",FALSE,hyea.png
-,,,,
-6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 floors.",TRUE,hip-hop.png
-6,Hurry up!,"Discard your hand, draw an equal amount of cards.",FALSE,hurry-up.png
-,,,,
-2,Great!,Draw 2 cards.,FALSE,great.png
-0,Colorful stars, you can turn any card of yours into a ice tower card,,
-8,Wrew!,Jump 2 floors.,TRUE,wrew.png
-6,Rainbow Streak,The tower doesn't crumble this turn.,TRUE,rainbow-streak.png
-4,Sweet!,"If you're on a 3+ combo streak, draw two cards.",FALSE,sweet.png
-4,TEMPLATE,Copy the last card you've played.,TRUE,template.png
-2,No Way!,"If the tower would crumble on you at the end of this turn, jump 5 floors.",TRUE,no-way.png
+1,Hip!,Jump 1 floor.,FALSE,hop.png
+1,Stayin' Alive!,"Look at the top card of the deck: If it's a combo card, jump 6 floors. If not, jump 2.",TRUE,stayin-alive.png
+1,Hmm..,"Reveal the top three cards of the deck. Put one in your hand, discard the rest.",FALSE,hm.png
+1,Hyea!,"Jump 2 floors. Discard a card in your hand to jump 5, instead.",FALSE,hyea.png
+1,Hip-Hop!,"Discard two Hip! cards, draw two cards, jump 4 floors. If you don't have two Hip!s, this does nothing.",TRUE,hip-hop.png
+1,Hurry up!,"Discard your hand, draw an equal amount of cards.",FALSE,hurry-up.png
+1,Great!,Draw 2 cards.,FALSE,great.png
+1,Wrew!,Jump 3 floors.,TRUE,wrew.png
+1,Rainbow Streak,Jump as many floors as the tower did on your last turn.,TRUE,rainbow-streak.png
+1,Sweet!,"Jump 2 floors. If you're on a 3+ combo streak, also draw a card.",TRUE,sweet.png
+1,No Way!,Jump 10 floors!,TRUE,no-way.png

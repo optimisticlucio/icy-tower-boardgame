@@ -5,23 +5,31 @@ LINK=..\..\csv\Icy Tower Cards - Sheet1.csv
 [COMBO CARDS] = LABELRANGE([COMBO CARD],=True)
 
 VISUAL=HV, 10, 10
-;Non-Combo Font
-FONT=Bauhaus 93,20,,#000000
-TEXT=,[CARD NAME],0%,0%,100%,15%
-
-;Combo Font
-FONT=Bauhaus 93,20,,#69359C
-TEXT=[COMBO CARDS],[CARD NAME],0%,0%,100%,15%
-
-;Combo Subtitle Font
-FONT=Bauhaus 93,10,,#69359C
-TEXT=[COMBO CARDS],"COMBO!",0%,15%,100%,5%
-
-
-IMAGE=,"..\..\img\[IMAGE FILE]",5%,20%,90%,50%
-;Text Font
-FONT=Arial,10,,#000000
-TEXT="1-{(CARD EFFECT)}",[CARD EFFECT],0%,75%,100%,25%,CENTER,WWTOP
+HTMLFONT=title,Fresh Marker,14,,#00000,CENTER,0,0,0,,,0,0,,0,0,"title{background-image: linear-gradient(red, blue); color: transparent; background-clip: text;}"
+HTMLMARGINS=title,0,0,0,0,CENTER
+HTMLFONT=cardtext,Darumadrop One,11,,#000000,CENTER
+HTMLMARGINS=cardtext,0,0,0,0,CENTER
+;Background
+IMAGE=,"..\..\img\card-template\background.png",-12.5%,0%,125%,100%,0,P
+;Top Rectangle
+RECTANGLE=,0%,0%,100%,20%,#666699
+;Title Text
+HTMLTEXT="1-{(CARD NAME)}",[CARD NAME],5%,0%,90%,20%,#000000,0,BK,100,title
+;Toppest Border
+IMAGE=,"..\..\img\card-template\floor.png",0%,-2.5%,100%,10%,0,P
+;Top Border
+IMAGE=,"..\..\img\card-template\floor.png",0%,15%,100%,10%,0,P
+;Bottom Rectangle
+RECTANGLE=,0%,70%,100%,30%,#666699
+HTMLTEXT=,"<cardtext>[CARD EFFECT]</cardtext>",10%,72%,80%,25%,#FFFFFF,0,B
+;Bottom Border
+IMAGE=,"..\..\img\card-template\floor.png",0%,65%,100%,10%,0,P
+;Bottomest Border
+IMAGE=,"..\..\img\card-template\floor.png",0%,92.5%,100%,10%,0,P
+;Right Border
+IMAGE=,"..\..\img\card-template\side.png",90%,0%,20%,100%,0,P
+;Left Border
+IMAGE=,"..\..\img\card-template\side.png",-10%,0%,20%,100%,0,PH
 ENDVISUAL
 
-DISPLAY="..\export\export{ן¿½}.png",,,10x7
+DISPLAY="..\export\export{�}.png",,,10x7
