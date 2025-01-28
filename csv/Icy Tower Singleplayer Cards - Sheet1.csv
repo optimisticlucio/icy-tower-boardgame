@@ -1,0 +1,12 @@
+Card Amount,Card Name,Card Effect,Combo Card,Image File
+30,Hip!,Jump 1 floor.,FALSE,hop.png
+6,Stayin' Alive!,Roll the die. Jump as many floors as your dice roll's result.,TRUE,stayin-alive.png
+3,Hmm..,Draw a card. You may discard it and draw a new card.,FALSE,hm.png
+8,Hyea!,Jump 2 floors. Discard a card to jump 3 more.,FALSE,hyea.png
+6,Hip-Hop!,"Discard two Hip! cards: draw two cards, jump 4 floors. Otherwise, does nothing.",TRUE,hip-hop.png
+6,Hurry up!,"Roll the die, then jump 5 floors. If the die rolled a 1, lose the game.",FALSE,hurry-up.png
+4,Great!,Draw 2 cards.,FALSE,great.png
+12,Wrew!,Jump 3 floors.,TRUE,wrew.png
+6,Rainbow Streak,Jump as many floors as the tower did on your last turn.,TRUE,rainbow-streak.png
+0,Sweet!,"Jump 2 floors. If you're on a 3+ combo streak, also draw a card.",TRUE,sweet.png
+2,No Way!,Jump 10 floors!,TRUE,no-way.png
